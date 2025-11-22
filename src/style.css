@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../public/assets/fonts/Comfortaa-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../public/assets/fonts/Comfortaa-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../public/assets/fonts/Comfortaa-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../public/assets/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../public/assets/fonts/Montserrat-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../public/assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../public/assets/fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../public/assets/fonts/Raleway-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../public/assets/fonts/Raleway-Black.ttf) format('truetype');
+}
+
+@theme {
+    --color-green-400: #64d370;
+    /* :hover */
+    --color-green-500: #26f03a;
+    /* 10% #26f03a1a */
+    --color-green-600: #3d9646;
+    /* :active */
+    --color-blue-100: #f5faff;
+    --color-blue-200: #dee6ee;
+    --color-blue-300: #f4f9fe;
+    --color-red-400: #f87676;
+    --color-red-500: #fe3666;
+    --color-gray-950: #020202;
+
+
+    --font-comfortaa: Comfortaa, sans-serif;
+    --font-montserrat: Montserrat, sans-serif;
+    --font-raleway: Raleway, sans-serif;
+
+    --text-h1-: 40px;
+    --text-h2: 35px;
+    --text-h3: 32px;
+    --text-h4: 28px;
+    --text-h5: 24px;
+    --text-h6: 20px;
+
+    --container-6xl: calc(73.75rem + 160px);
+    --container-2xl: calc(43.125rem + 40px);
+
+    --shadow-md: 0 0 40px 0 #5656564d;
+}
+
+
+
+.logo {
+    position: relative;
+    &::before {
+        content: '232';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 264px;
+        width: 264px;
+        background-color: #f5faff;
+        border-radius: 50%;
+        box-shadow: 0 0 40px 0 #5656564d;
+        z-index: -10;
+    }
+}
