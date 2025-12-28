@@ -1,24 +1,33 @@
 <header>
-    <div class="flex items-center max-w-6xl w-full text-justify ml-auto mr-auto pl-20 pr-20 relative">
-        <a href="index.html" class="flex flex-col items-center gap-1.5 relative z-10 before:absolute before:left-1/2 before:top-1/2 before:-translate-1/2 before:size-66 before:bg-blue-100 before:rounded-full before:-z-9 before:shadow-md">
-            <img src="/assets/img/logo.png" alt="logo">
-            <p class="text-sm">healthy ration</p>
+    <div class="flex items-center md:max-w-2xl xl:max-w-6xl w-full ml-auto mr-auto md:pl-14.75 xl:pl-20 md:pr-9.75 pt-5.25 xl:pt-5 xl:pr-20 relative">
+        <a href="index.html" class="flex flex-col items-center mr-auto pt-0.5 md:mr-0 ml-7.75 md:ml-0 md:gap-1 xl:gap-1.5 relative z-10 before:absolute before:left-1/2 before:top-1/2 before:-translate-1/2 before:size-34.5 md:before:size-37.5 xl:before:size-50 2xl:before:size-66 before:bg-blue-100 before:rounded-full before:-z-9 before:shadow-md">
+            <img src="/assets/img/logo.png" class="w-26.5 xl:w-46.5" alt="logo">
+            <p class="font-comfortaa text-3xs xl:text-sm">healthy ration</p>
         </a>
+        <div id="mobile-container" class="hidden absolute z-10 md:z-0 bg-blue-100 top-0 left-0 md:static md:flex w-full items-center rounded-bl-4xl rounded-br-4xl pt-10 pb-5 pl-5 pr-5 md:p-0">
+            <nav class="flex flex-col md:flex-row bg-blue-100 gap-5 md:gap-0 md:py-1.5 md:pl-15 xl:pl-8 2xl:pl-20.5 md:pr-5 md:shadow-md md:rounded-full md:-ml-2.5 md:mr-2.5 xl:-ml-5 2xl:mr-5 mb-10.5 md:mb-0">
+                <a class="font-bold md:font-normal md:text-3xs xl:text-sm px-3.25 md:px-2.5 xl:px-5 md:py-1 xl:py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Програмы питания</a>
+                <a class="font-bold md:font-normal md:text-3xs xl:text-sm px-3.25 md:px-2.5 xl:px-5 md:py-1 xl:py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Бизнес-ланчи</a>
+                <a class="font-bold md:font-normal md:text-3xs xl:text-sm px-3.25 md:px-2.5 xl:px-5 md:py-1 xl:py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Gastro Shop</a>
+                <a class="font-bold md:font-normal md:text-3xs xl:text-sm px-3.25 md:px-2.5 xl:px-5 md:py-1 xl:py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">О нас</a>
+                <a class="font-bold md:font-normal md:text-3xs xl:text-sm px-3.25 md:px-2.5 xl:px-5 md:py-1 xl:py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Блог</a>
+            </nav>
 
-        <nav
-            class="flex bg-blue-100 py-1.5 -ml-5 pl-20 pr-5 shadow-md rounded-full mx-5">
-            <a class="text-sm px-5 py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Програмы питания</a>
-            <a class="text-sm px-5 py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Бизнес-ланчи</a>
-            <a class="text-sm px-5 py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Gastro Shop</a>
-            <a class="text-sm px-5 py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">О нас</a>
-            <a class="text-sm px-5 py-2.5 hover:text-green-400 focus:text-green-400 active:text-green-600" href="#">Блог</a>
-        </nav>
-
-        <a class="text-green-400 border-blue-100 bg-blue-100 border-3 rounded-4xl py-2.25 px-6.75 font-bold text-xl shadow-md hover:text-blue-100 hover:bg-green-400" href="tel:+380689494919">+38 (068) 949 - 49 - 19</a>
-        <nav class="absolute top-28 left-84 flex gap-3.75">
-            <a href="#" class="flex bg-green-400 text-blue-300 rounded-full shadow-md justify-center items-center size-8.75 text-[15px] uppercase hover:bg-green-400 hover:text-blue-300">ru</a>
-            <a href="#" class="flex bg-blue-100 rounded-full shadow-md justify-center items-center size-8.75 text-[15px] uppercase hover:bg-green-400 hover:text-blue-300">ua</a>
-            <a href="#" class="flex bg-blue-100 rounded-full shadow-md justify-center items-center size-8.75 text-[15px] uppercase hover:bg-green-400 hover:text-blue-300">en</a>
-        </nav>
+            <a class="bg-green-400 md:hover:bg-green-400 text-blue-100 border-green-400 md:text-green-400 md:border-blue-100 md:bg-blue-100 border-3 rounded-4xl px-6.75 py-2 md:py-1.25 xl:py-2.25 md:px-4 xl:px-6.75 font-bold text-xl md:text-2xs xl:text-xl xl:mr-0 shadow-md hover:bg-blue-100 hover:text-green-400 md:hover:text-blue-100" href="tel:+380689494919">+38 (068) 949 - 49 -19</a>
+            <nav class="absolute top-25 right-8 md:top-18.25 md:left-47.75 xl:top-31 xl:left-85.75 flex flex-col md:flex-row gap-2 xl:gap-3.75">
+                <a href="#" class="flex bg-green-400 text-blue-300 rounded-full shadow-md justify-center items-center size-10 md:size-4 xl:size-8.75 md:text-2xs xl:text-[15px] uppercase hover:bg-green-400 hover:text-blue-300">ru</a>
+                <a href="#" class="flex bg-blue-100 rounded-full shadow-md justify-center items-center size-10 md:size-4 xl:size-8.75 md:text-2xs xl:text-[15px] uppercase hover:bg-green-400 hover:text-blue-300">ua</a>
+                <a href="#" class="flex bg-blue-100 rounded-full shadow-md justify-center items-center size-10 md:size-4 xl:size-8.75 md:text-2xs xl:text-[15px] uppercase hover:bg-green-400 hover:text-blue-300">en</a>
+            </nav>
+            <div id="overlay" class="md:hidden bg-black/20 w-full h-[100vh] absolute top-0 left-0"></div>
+        </div>
+        <a href="tel:+380689494919" class="md:hidden ml-2.25 text-green-400 hover:text-green-600 size-16 bg-blue-100 shadow-md rounded-full flex items-center justify-center"><svg class="w-6.75 h-7.5">
+                <use href="#icon-phone"></use>
+            </svg></a>
+        <button id="burger" class="md:hidden burger z-20 mr-4.75 ml-2.25 size-16 bg-blue-100 shadow-md rounded-full flex items-center justify-center" type="button">
+            <span class="burger__icon-wrapper">
+                    <span class="burger__icon"></span>
+            </span>
+        </button>
     </div>
 </header>
