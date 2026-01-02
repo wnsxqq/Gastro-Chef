@@ -107,6 +107,11 @@
 
     --text-2xs: 10px;
     --text-3xs: 8px;
+    --text-4xs: 7px;
+}
+
+.burger.is-active body {
+    overflow: hidden;
 }
 
 .burger.is-active .burger__icon {
@@ -169,6 +174,24 @@
     top: 14px;
 }
 
-#mobile-container {
+.overlay {
+    overflow: hidden;
+}
 
+@media (width <=48rem) {
+    .overlay::before {
+        content: "";
+        background: #00000033;
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+    }
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
 }
